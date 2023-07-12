@@ -1,0 +1,32 @@
+.modal{
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+
+}
+.modal-title{
+    color: rgb(4, 46, 4);
+}
+.modal-content{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #e8e8e8;
+    padding: 0 10px;
+    outline: none;
+}

@@ -1,0 +1,15 @@
+.form-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 40px;
+}
+
+.add-input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #e8e8e8;
+    padding: 0 10px;
+    outline: none;
+}
